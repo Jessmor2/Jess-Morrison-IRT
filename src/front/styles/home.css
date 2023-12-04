@@ -1,7 +1,27 @@
-/*
-    home.css: This website contains selectors only used in home.css
+/* #titleArea {
+    background-image: url("../img/Sunny_Beach.jpg");
+    height: fit-content;
+    width: fit-content;
+    background-position: center;
+} */
+#pageTitle {
+    text-align: center;
+    font-family: 'Ruthie', cursive;
+    font-size: 55px;
+    margin-bottom: -30px;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.pageHeaderLeft {
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: 'Timmana', sans-serif;
+}
+#titleImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#pageHeaderRight {
+    padding-top: 25px;
+}
