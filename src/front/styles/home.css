@@ -1,10 +1,6 @@
-/* #titleArea {
-    background-image: url("../img/Sunny_Beach.jpg");
-    height: fit-content;
-    width: fit-content;
-    background-position: center;
-} */
+
 #pageTitle {
+    font-weight: 500;
     text-align: center;
     font-family: 'Ruthie', cursive;
     font-size: 55px;
@@ -12,16 +8,35 @@
 }
 
 .pageHeaderLeft {
-    padding-top: 25px;
-    font-size: 25px;
+    text-align: center;
+    color: rgb(31, 43, 43);
+    padding-top: 50px;
+    font-size: 28px;
     font-family: 'Timmana', sans-serif;
 }
 #titleImage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
 }
 #pageHeaderRight {
     padding-top: 25px;
+    text-decoration: none;
+}
+#titleArea {
+    background-image: url("https://i.pinimg.com/originals/88/77/8d/88778da310d06b0f41e278e68cf19101.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 350px;   
+
+} 
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    
+}
+a:hover {
+    color: black;
 }
