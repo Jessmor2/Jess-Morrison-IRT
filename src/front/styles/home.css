@@ -40,3 +40,64 @@ a {
 a:hover {
     color: black;
 }
+.carousel {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    width: 700px;
+}
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.carousel-img {
+    width: 700px;
+}
+#heroSideBar {
+    background-color: aqua;
+    height: 700px;
+}
+#sideMenuButton {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 175px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: blue;
+}
+#sideMenuButton:hover {
+    color: aqua;
+}
+#sideMenuImg {
+    height: 130px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #111;
+}
+#sideMenuImg:hover {
+    border: 5px solid rgba(0, 15, 153, 0);
+    filter: brightness(60%);
+
+}
+.backgroundImage {
+    height: 700px;
+    width: 100%;
+}
